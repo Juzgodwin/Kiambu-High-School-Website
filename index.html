@@ -13,6 +13,73 @@
 
 </head>
 <body>
+    <nav class="nav-wrapper">
+        <a href="#" class="brand-logo">Katchez</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+        </a>
+
+        <div class="container">
+            <ul class="hide-on-med-and-down">
+                    <li class="nav-item active">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Admission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact us</a>
+                        </li>
+            </ul>
+        </div>
+
+        <ul class="sidenav" id="mobile-links">
+                <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Clubs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact us</a>
+                    </li>
+        </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!-- JQuerry -->
+    <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+
+    </script>
     
 </body>
 </html>
